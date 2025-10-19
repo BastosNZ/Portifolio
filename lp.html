@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio — Enzo Bastos</title>
+    <style>
+        /* --- Configurações Globais --- */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* --- Container Principal --- */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        /* --- Cabeçalho e Navegação --- */
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            color: #2c3e50;
+            margin: 0;
+        }
+
+        header .subtitle {
+            font-size: 1.1em;
+            color: #7f8c8d;
+            margin-top: 10px;
+        }
+
+        nav {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: 500;
+            margin: 0 15px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ecf0f1;
+        }
+
+        /* --- Seções --- */
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* --- Seção Sobre Mim --- */
+        #sobre ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        #sobre li {
+            margin-bottom: 10px;
+            font-size: 1.05em;
+        }
+
+        #sobre strong {
+            color: #333;
+            min-width: 110px;
+            display: inline-block;
+        }
+
+        /* --- Seção Habilidades --- */
+        h3 {
+            color: #333;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills-list li {
+            background-color: #ecf0f1;
+            color: #555;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.95em;
+            font-weight: 500;
+        }
+
+        /* --- Seção Projetos --- */
+        .project-card {
+            background-color: #fafafa;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+        }
+
+        .project-card a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project-card a:hover {
+            text-decoration: underline;
+        }
+        
+        .project-placeholder {
+            font-style: italic;
+            color: #888;
+        }
+
+        /* --- Rodapé --- */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>Portfólio — Enzo Bastos</h1>
+            <p class="subtitle">Bem-vindo(a) ao meu portfólio! Aqui você encontrará uma seleção dos meus projetos acadêmicos e pessoais, desenvolvidos com foco em aprendizado contínuo, boas práticas e evolução profissional.</p>
+        </header>
+
+        <nav>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <main>
+            <section id="sobre">
+                <h2>Sobre mim</h2>
+                <ul>
+                    <li><strong>Formação:</strong> Cursando Engenharia de Software (Centro Universitário de Brasília)</li>
+                    <li><strong>Interesses:</strong> Desenvolvimento Web, Análise de Dados, DevOps, IA</li>
+                    <li><strong>Localização:</strong> Brasil - Brasília</li>
+                </ul>
+                
+                <h3>Biografia</h3>
+                <p>Enzo Bastos é estudante de Engenharia de Software no Centro Universitário de Brasília, com interesse em Desenvolvimento Web, Análise de Dados, DevOps, IA. Ao longo de sua formação acadêmica, tem buscado aprofundar seus conhecimentos em programação orientada a objetos, bancos de dados relacionais, sistemas operacionais, desenvolvendo projetos práticos que fortalecem sua capacidade de análise e resolução de problemas.</p>
+                <p>Durante sua trajetória acadêmica, Enzo participou de trabalhos em grupo, projetos de extensão, pesquisas (em andamento), demonstrando comprometimento, responsabilidade e facilidade de adaptação em novos desafios. Além disso, possui experiência com Java, Python, JavaScript, SQL, aplicando essas habilidades tanto em projetos acadêmicos quanto em iniciativas pessoais.</p>
+            </section>
+
+            <section id="habilidades">
+                <h2>Habilidades</h2>
+                
+                <h3>Linguagens</h3>
+                <ul class="skills-list">
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                </ul>
+
+                <h3>Frameworks e Ferramentas</h3>
+                <ul class="skills-list">
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Django</li>
+                    <li>Docker</li>
+                    <li>Git/GitHub</li>
+                </ul>
+
+                <h3>Banco de Dados</h3>
+                <ul class="skills-list">
+                    <li>MySQL</li>
+                    <li>SQLServer</li>
+                </ul>
+
+                <h3>Outros</h3>
+                <ul class="skills-list">
+                    <li>Metodologias Ágeis</li>
+                    <li>Versionamento</li>
+                    <li>APIs</li>
+                </ul>
+            </section>
+
+            <section id="projetos">
+                <h2>Projetos em Destaque</h2>
+
+                <article class="project-card">
+                    <h3>Projeto 1 (Em breve)</h3>
+                    <p class="project-placeholder">Uma breve descrição do seu projeto aparecerá aqui. Fale sobre o objetivo, o problema que ele resolve e as tecnologias que você usou.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Ver no GitHub (link em breve)</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Projeto 2 (Em breve)</h3>
+                    <p class="project-placeholder">Outro projeto incrível será detalhado aqui.</p>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Ver no GitHub (link em breve)</a>
+                </article>
+
+            </section>
+
+            <section id="objetivo">
+                <h2>Objetivo</h2>
+                <p>Este portfólio tem como objetivo registrar minha jornada na tecnologia e demonstrar minhas habilidades técnicas, capacidade de aprendizado e evolução profissional. Meu objetivo é consolidar-me como um profissional capaz de unir teoria e prática na área de engenharia de software, contribuindo para o desenvolvimento de soluções tecnológicas inovadoras e eficientes.</p>
+            </section>
+
+            <section id="contato">
+                <h2>Contato</h2>
+                <p>Vamos nos conectar! Sinta-se à vontade para me enviar um e-mail:</p>
+                <p style="font-size: 1.1em; font-weight: bold;">
+                    <a href="mailto:enzobastos25@gmail.com">enzobastos25@gmail.com</a>
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 — Enzo Bastos</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
